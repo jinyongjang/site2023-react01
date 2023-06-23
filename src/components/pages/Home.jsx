@@ -13,11 +13,11 @@ const Home = () => {
     <>
       <Contents>
         <Slider attr="slider__wrap gmarket5" />
-        <Intro attr="intro__wrap section bg-blue" />
-        <Portfolio attr="port__wrap section center" />
+        <Intro attr="intro__wrap section bg-blue gmarket5" />
+        <Portfolio attr="port__wrap section center gmarket5" />
         <Youtube attr="youtube__wrap gmarket5 section bg-blue" />
         <Unsplash attr="unsplash__wrap gmarket5 section" />
-        <Movie attr="movies__wrap section bg-blue" />
+        <Movie attr="movies__wrap section bg-blue gmarket5" />
       </Contents>
     </>
   );

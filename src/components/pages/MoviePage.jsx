@@ -12,7 +12,7 @@ const MoviePage = () => {
 
   const search = async (query) => {
     await fetch(
-      `https://api.themoviedb.org/3/search/movie?api_key=310e025fb6da176e86a5210874607f40&language=en-US&query=${query}`
+      `${query}?api_key=310e025fb6da176e86a5210874607f40&language=en-US`
     )
       .then((response) => response.json())
       .then((result) => setMovies(result.results))
@@ -40,7 +40,7 @@ const MoviePage = () => {
         <ContTitle title="movie" />
         <MovieSlider movies={movies} />
         <MovieSearch onSearch={search} />
-        <MovieTag />
+        <MovieTag onSearch={search} />
         <MovieCont movies={movies} />
       </Contents>
     </>

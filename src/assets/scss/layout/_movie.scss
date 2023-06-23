@@ -38,19 +38,29 @@
 
 .movie__tag {
   ul {
-    font-family: "GmarketSans";
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     margin-top: 100px;
+    margin-bottom: 50px;
 
     li {
       a {
-        border: 1px solid #f52323;
+        display: inline-block;
+        border: 1px solid #8800be;
         padding: 10px 20px;
         margin: 0 10px;
-        color: #f7100d;
+        color: #8800be;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #58007a;
+          color: #fff;
+        }
       }
+    }
+    li.active a {
+      background-color: #510071;
+      color: #fff;
     }
   }
 }
@@ -113,4 +123,19 @@
       }
     }
   }
+}
+
+//movie__slider
+.movie__slider .swiper {
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+.movie__slider .swiper img {
+  width: 100%;
+  display: inline;
+}
+.swiper-pagination {
+  padding: 20px;
 }

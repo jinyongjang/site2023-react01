@@ -1,53 +1,115 @@
 // intro__wrap
-.intro__wrap {}
+.intro__wrap {
+}
 .intro__inner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .intro__title {
-    width: 33%;
-    
-    span {
-        background-color: #FF3344;
-        font-size: 14px;
-        padding: 4px 30px 2px;
-        color: #fff;
-        border-radius: 40px;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        display: inline-block;
-    }
-    h3 {
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 1.2;
-        margin-bottom: 30px;
-    }
-    p {
-        font-size: 18px;
-        line-height: 1.5;
-        font-weight: 500;
-    }
+  width: 33%;
+
+  span {
+    background-color: #ff3344;
+    font-size: 14px;
+    padding: 4px 30px 2px;
+    color: #fff;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  h3 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
 }
 .intro__desc {
-    width: 66%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-    > div {
-        width: 48%;
-        margin-bottom: 40px;
+  > div {
+    width: 48%;
+    margin-bottom: 40px;
 
-        h4 {
-            font-size: 24px;
-            margin-bottom: 15px;          
-        }
-        &:nth-child(3){
-            margin-bottom: 0;
-        }
-        &:nth-child(4){
-            margin-bottom: 0;
-        }
+    h4 {
+      font-size: 24px;
+      margin-bottom: 15px;
     }
+    &:nth-child(3) {
+      margin-bottom: 0;
+    }
+    &:nth-child(4) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.intro__wrap {
+  padding-top: 50px;
+  .introcard1 {
+    display: flex;
+
+    .introImg {
+      background-image: url(../../images/intro/intro1.png);
+      background-size: cover;
+      background-position: center center;
+      width: 40%;
+      height: 550px;
+    }
+    .introDesc {
+      width: 55%;
+
+      h1 {
+        color: gold;
+        font-weight: bold;
+        font-size: 70px;
+      }
+      p {
+        color: #7f5b00;
+        padding-left: 20px;
+        line-height: 1.6;
+        padding-top: 60px;
+      }
+    }
+  }
+  .introCard2 {
+    padding-top: 50px;
+    h1 {
+      font-weight: bold;
+      font-size: 70px;
+      color: salmon;
+    }
+    p {
+      color: #920046;
+      font-size: 17px;
+      line-height: 1.6;
+      padding-left: 20px;
+      padding-top: 50px;
+    }
+  }
+  .introcard3 {
+    padding-top: 80px;
+    h1 {
+      font-weight: bold;
+      font-size: 70px;
+      color: violet;
+      text-align: right;
+    }
+    p {
+      color: rgb(160, 59, 160);
+      font-size: 17px;
+      line-height: 1.6;
+      padding-left: 20px;
+      padding-top: 50px;
+    }
+  }
 }
