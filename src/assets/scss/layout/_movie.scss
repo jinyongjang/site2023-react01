@@ -44,7 +44,7 @@
     margin-bottom: 50px;
 
     li {
-      a {
+      button {
         display: inline-block;
         border: 1px solid #8800be;
         padding: 10px 20px;
@@ -58,7 +58,7 @@
         }
       }
     }
-    li.active a {
+    li.active button {
       background-color: #510071;
       color: #fff;
     }
