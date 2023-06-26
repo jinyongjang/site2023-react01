@@ -86,3 +86,17 @@
     }
   }
 }
+
+//unsplash__slider
+.unsplash__slider .swiper {
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+}
+.unsplash__slider img {
+  height: 400px;
+}
+.swiper-pagination {
+  padding: 20px;
+}
