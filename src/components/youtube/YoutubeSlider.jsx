@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const YoutubeSlider = () => {
-  return <div>YoutubeSlider</div>;
+  return <div></div>;
 };
 
 export default YoutubeSlider;
