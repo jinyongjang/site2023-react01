@@ -6,7 +6,7 @@ import PortfolioCont from "../portfolio/PortfolioCont";
 const PortPage = () => {
   return (
     <Contents>
-      <ContTitle title="portfolio" />
+      <ContTitle title="FLOWERS" />
       <PortfolioCont />
     </Contents>
   );

@@ -3,6 +3,36 @@ import React from "react";
 const PortfolioCont = () => {
   return (
     <main className="port__wrap container gmarket section">
+      <div class="imgLoader"></div>
+
+      <div class="container">
+        <div class="book">
+          <div class="gap"></div>
+          <div class="pages">
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+          </div>
+          <div class="flips">
+            <div class="flip flip1">
+              <div class="flip flip2">
+                <div class="flip flip3">
+                  <div class="flip flip4">
+                    <div class="flip flip5">
+                      <div class="flip flip6">
+                        <div class="flip flip7"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <h1>계절별 대표 꽃</h1>
       <section id="section1">
         <div className="sectionLeft1"></div>
