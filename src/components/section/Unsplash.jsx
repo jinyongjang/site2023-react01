@@ -11,7 +11,7 @@ const Unsplash = (props) => {
             <br />
             사용할 수 있습니다.
           </p>
-          <a href="/" className="button-blue">
+          <a href="/unsplash" className="button-blue">
             자세히 보기
           </a>
         </div>

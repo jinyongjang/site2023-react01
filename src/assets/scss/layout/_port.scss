@@ -2,6 +2,7 @@
 .port__wrap {
 }
 .port__inner {
+  
   .port__btn {
     ul {
       display: flex;
@@ -58,8 +59,10 @@
   padding-bottom: 300px;
   text-align: center;
   font-size: 40px;
-  color: rgb(87, 171, 255);
+  color: rgb(78, 90, 255);
   margin-bottom: 80px;
+  font-family: "Indie";
+  text-shadow: 3px 4px 3px rgb(105, 165, 255);
 }
 .sectionLeft1 {
   width: 60%;
@@ -193,10 +196,23 @@ $images: url(../../images/port/cherryblossom.png),
   }
 
   @keyframes nextPage {
-    @for $i from 0 through 4 {
-      #{$i * 20}% {
-        background-image: nth($images, ($i + 1));
-      }
+    0% {
+      background-image: nth($images, 1);
+    }
+    20% {
+      background-image: nth($images, 2);
+    }
+    40% {
+      background-image: nth($images, 3);
+    }
+    60% {
+      background-image: nth($images, 4);
+    }
+    80% {
+      background-image: nth($images, 5);
+    }
+    100% {
+      background-image: nth($images, 6);
     }
   }
 }

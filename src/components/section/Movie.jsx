@@ -5,13 +5,13 @@ const Movie = (props) => {
     <section id="moviesSection" className={props.attr}>
       <div className="movie__inner container">
         <div className="movie__text">
-          <h3>코딩 추천 영화</h3>
+          <h3>영화 검색</h3>
           <p>
-            Netflix와 Youtube등 다양한 경로에서
+            최신 영화 순위를 볼 수 있으며
             <br />
-            코딩 관련 영화를 시청할 수 있습니다.
+            영화 정보를 찾을 수 있습니다.
           </p>
-          <a href="/" className="button-green">
+          <a href="/movie" className="button-green">
             자세히 보기
           </a>
         </div>

@@ -5,12 +5,12 @@ const Youtube = (props) => {
     <section id="youtubeSection" className={props.attr}>
       <div className="youtube__inner container">
         <div className="youtube__text">
-          <h3>코딩 유튜버 추천</h3>
+          <h3>유튜브 영상</h3>
           <p>
-            노마드 코더, 애플 코딩 등 많은 유튜버들이 있습니다. <br />
-            함께 공부 합시다.
+            유튜브 영상을 검색하고<br />
+            검색된 영상을 시청할 수 있습니다.
           </p>
-          <a href="/" className="button-red">
+          <a href="/youtube" className="button-red">
             자세히 보기
           </a>
         </div>
